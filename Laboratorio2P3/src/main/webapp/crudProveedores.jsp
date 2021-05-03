@@ -17,7 +17,7 @@
 					
 					<thead>
 						<tr>
-							<th colspan="7"><h2 class="h2">Listado de Proveedores</h2></th>
+							<th colspan="7"><h2 class="h2">Proveedores</h2></th>
 						</tr>
 						<tr>
 							<th>Nombre</th>
@@ -37,13 +37,13 @@
 							<td></td>
 							<td></td>
 							<td></td>
-							<td><a href="" class="btn btn-danger">Eliminar</a></td>
-							<td><a href="" class="btn btn-info">Actualizar</a></td>
+							<td><a href="" class="btn btn-danger"> Eliminar </a></td>
+							<td><a href="" class="btn btn-info"> Actualizar </a></td>
 						</tr>
 						<tr>
 							<td colspan="7">
-								<a href="main.jsp" class="btn btn-success">Agregar</a>
-								<a href="main.jsp" class="btn btn-warning">Cancelar</a>
+								<a href="main.jsp" class="btn btn-success"> Agregar </a>
+								<a href="main.jsp" class="btn btn-warning"> Cancelar </a>
 							</td>
 						</tr>
 					</tbody>

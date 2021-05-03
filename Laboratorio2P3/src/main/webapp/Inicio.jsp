@@ -13,11 +13,11 @@
 	        <div class="col-md-6">
 	            <div class="card">
 	                <form action="ControllerAcceso" method="post" class="box">
-	                    <h1>AgenciaC</h1>
-	                    <p class="text-muted">¡Ingresa tus credenciales para Acceder!</p> 
+	                    <h1> AgenciaC </h1>
+	                    <p class="text-muted"> Iniciar Sesion </p> 
 	                    <input type="text" name="user" autocomplete="false" placeholder="Usuario"> 
 	                    <input type="password" name="pass" placeholder="Contrase&ntilde;a"> 
-	                    <a class="forgot text-muted" href="#">Crear Cuenta?</a> 
+	                    <a class="forgot text-muted" href="#"> Crear Cuenta </a> 
 	                    <input type="submit" name="" value="Acceder" href="#">
 	                </form>
 	            </div>
