@@ -2,13 +2,12 @@ package com.laboratorio2p3.dao;
 
 import java.sql.*;
 import java.util.ArrayList;
-
-import com.laboratorio2p3.conexion.Conexion;
 import com.laboratorio2p3.entidades.*;
+import com.laboratorio2p3.Conexion.*;
 
 public class ClsCliente {
-	Conexion cn = new Conexion();
-    Connection con = cn.RetornarConexion();
+	 Conexion cn = new Conexion();
+	 Connection con = cn.RetornarConexion();
 
     //METODOS DE ACCESO A LA BASE DE DATOS
     public void AgregarCliente(Cliente cliente) {

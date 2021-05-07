@@ -2,9 +2,8 @@ package com.laboratorio2p3.dao;
 
 import java.sql.*;
 import java.util.ArrayList;
-
-import com.laboratorio2p3.conexion.Conexion;
-import com.laboratorio2p3.entidades.Usuario;
+import com.laboratorio2p3.Conexion.*;
+import com.laboratorio2p3.entidades.*;
 
 public class ClsUsuario {
 	//CONEXION A LA BASE DE DATOS 

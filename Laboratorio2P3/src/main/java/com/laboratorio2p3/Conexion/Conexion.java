@@ -1,4 +1,4 @@
-package com.laboratorio2p3.conexion;
+package com.laboratorio2p3.Conexion;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -10,7 +10,7 @@ private Connection coonec;
     {
     try{
     	Class.forName("com.mysql.jdbc.Driver");
-        coonec = DriverManager.getConnection("jdbc:mysql://localhost/appbanco","root","root");
+        coonec = DriverManager.getConnection("jdbc:mysql://localhost/agenciac","root","root");
         System.out.println("CONECTADO A LA BD");
         
     }catch (Exception e)
